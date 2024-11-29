@@ -36,7 +36,7 @@ At the pycharm prompt:
 
 <h3><u>Generate the Allure Report</u></h3>
 opens the browser and displays reports in folder.
-allure serve C:\selenium\selenium_video\allure-results
+<b>(venv) PS C:\selenium\selenium_video></b>allure serve C:\selenium\selenium_video\allure-results
 
 
 <h1>Project File Structure:</h1>
