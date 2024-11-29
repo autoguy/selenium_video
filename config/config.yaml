@@ -1,0 +1,9 @@
+global:
+  base_url: "https://example.com"
+  login_url: "https://example.com/login"
+  home_url: "https://vxgdemo.cloud-vms.com"
+  cameras_url: "https://vxgdemo.cloud-vms.com/#cameras"
+  site_title: "VXG Cloud One"
+credentials:
+  username: "demo@vxg.io"
+  password: "vxgdemo123"
