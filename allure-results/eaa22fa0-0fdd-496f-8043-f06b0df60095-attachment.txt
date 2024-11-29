@@ -1,0 +1,1 @@
+2024-11-28 16:04:25,839 - TestLoginValidCredentials - INFO - Navigate to login page.

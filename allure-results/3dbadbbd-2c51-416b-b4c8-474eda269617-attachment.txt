@@ -1,0 +1,1 @@
+INFO     TestLoginValidCredentials:test_login_valid_credentials.py:29 Navigate to login page.
