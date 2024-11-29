@@ -1,4 +1,10 @@
 <h1><u>Test Framework</u></h1>
+<h2>Summary</h2>
+Automation framework for web site testing.
+Framework uses python with libraries
+selenium, yaml and pytest with 
+allure reports.    
+
 <h2><b>Prerequisites:</b></h2>
   - Chromedriver.exe in path somewhere. 
       https://developer.chrome.com/docs/chromedriver/downloads
@@ -22,22 +28,26 @@ https://github.com/allure-framework/allure2/blob/2.32.0/README.md
 python library interface for it, which we do below
 in the pip -r requirements.txt command.
 4) Open command prompt and type command
-5) C:\>pip install -r requirements.txt
-
+5) C:\>
+```DOS
+pip install -r requirements.txt
+```
 
 <h2>Execution at Terminal</h2>
 
 <h3><u>Run All The Tests and Produce Pytest Report</u></h3>
 At the pycharm prompt:
-
-<b>(venv) PS C:\selenium\selenium_video></b> pytest -v -rA | tee test_report.txt 
+```DOS
+pytest -v -rA | tee test_report.txt 
+```
 
 * tee outputs to console and file at same time.
 
 <h3><u>Generate the Allure Report</u></h3>
 opens the browser and displays reports in folder.
-<b>(venv) PS C:\selenium\selenium_video></b>allure serve C:\selenium\selenium_video\allure-results
-
+```DOS
+allure serve C:\selenium\selenium_video\allure-results
+```
 
 <h1>Project File Structure:</h1>
 C:\selenium\selenium_video/<br>
@@ -73,6 +83,7 @@ C:\selenium\selenium_video/<br>
 ├── testlog.log           <---- file for logging.logger<br>
 └── requirements.txt      <---- python required libraries<br>
 
+```email
+author: Scott Blackburn
 email: scottblackburn1@proton.me
-Regards,
-Scott Blackburn
+```
